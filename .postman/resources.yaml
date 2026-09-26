@@ -1,0 +1,10 @@
+# Use this workspace to collaborate
+workspace:
+  id: 551923b3-7db9-47c1-81a7-727cfff01e03
+
+localResources:
+  collections: []
+
+cloudResources:
+  collections:
+    ../postman/collections/clothing-store-API: 3c559641-7d9c-4a49-b34a-6a05ce9c7b21

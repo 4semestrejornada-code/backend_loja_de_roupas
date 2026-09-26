@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:3000/products
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "category_id": "<id-da-categoria>",
+        "name": "Calça de Moletom",
+        "description": "Calça de moletom unissex com elástico e cordão na cintura.",
+        "price": 119.9,
+        "image_url": "",
+        "available": true,
+        "active": true
+    }
+order: 3000

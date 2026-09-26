@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/categories/<id-da-categoria>
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "description": "Calças jeans, de moletom e de sarja.",
+        "display_order": 2
+    }
+order: 5000

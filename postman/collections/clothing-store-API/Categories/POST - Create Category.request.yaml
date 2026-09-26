@@ -1,0 +1,16 @@
+$kind: http-request
+url: http://localhost:3000/categories
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "name": "Calças",
+        "description": "Calças jeans, de moletom, sociais e esportivas.",
+        "icon": "👖",
+        "display_order": 1,
+        "active": true
+    }
+order: 4000

@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/products/<id-do-produto>
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "price": 99.9,
+        "available": false
+    }
+order: 4000
